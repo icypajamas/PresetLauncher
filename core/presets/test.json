@@ -1,0 +1,17 @@
+{
+    "id": "76fb64df-9414-48b7-9426-3ae0dd00f88b",
+    "name": "Work",
+    "hotkey": "ctrl+alt+w",
+    "actions": [
+        {
+            "type": "app",
+            "target": "C:\\Windows\\notepad.exe",
+            "delay": 1
+        },
+        {
+            "type": "folder",
+            "target": "C:\\Stuff",
+            "delay": 0.5
+        }
+    ]
+}

@@ -1,3 +1,3 @@
-print("hello world")
+import subprocess
 
-# Project complete GG everyone
+subprocess.Popen(["notepad.exe"])
