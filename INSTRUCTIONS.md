@@ -42,8 +42,10 @@ All the libraries we install will be listed in the requirements.txt file.
 
 To install those for yourself so the project runs on your machine, run these commands:
 
-1) `source venv/Scripts/Activate`
+1) `.\venv\Scripts\activate`
 2) `pip install -r requirements.txt`
+
+- TIP: In your terminal, simply type venv, Then hit the TAB key, then type S and hit the TAB key, Then type a and hit the TAB key. This will autofill the command for you making it far easier to type.
 
 That will do it.
 
