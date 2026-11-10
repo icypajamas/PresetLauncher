@@ -1,4 +1,4 @@
-from core.models import Preset, Action
+from models import Preset, Action
 import time
 import subprocess as sp
 import os
@@ -60,3 +60,6 @@ def execute_action(action: Action):
         print(f"Failed to open {action.type}: {name} -", e) 
      else:
         print(f"Failed to open {action.type}: {action.target} -", e)
+
+
+execute_preset(p)

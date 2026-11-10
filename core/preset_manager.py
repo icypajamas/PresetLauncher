@@ -1,4 +1,4 @@
-from core.models import Preset
+from models import Preset
 
 # Load all saved presets to memory
 def load_presets(path: str) -> list[Preset]:
